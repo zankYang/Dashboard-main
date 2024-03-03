@@ -1,0 +1,32 @@
+.container{
+    margin: 90px 15px 0 285px;
+    display: grid;
+    width: auto;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: #2196F3;
+  }
+
+  .container.close{
+    margin: 90px 15px 0 80px;
+  }
+
+  @media screen and (max-width: 1000px) {
+
+    .container{
+      margin: 90px 15px 0 15px;
+    }
+    .container.close{
+      margin: 90px 15px 0 15px;
+    }
+  
+  }
+
+  /*PRUEBA GRID */
+  .grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
